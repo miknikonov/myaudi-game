@@ -1,0 +1,57 @@
+
+.background-1 {
+    background-color: #E5E5E5;
+    opacity: 1;
+    background: linear-gradient(135deg, #CCCCCC55 25%, transparent 25%) -35px 0/ 70px 70px,
+    linear-gradient(225deg, #CCCCCC 25%, transparent 25%) -35px 0/ 70px 70px,
+    linear-gradient(315deg, #CCCCCC55 25%, transparent 25%) 0px 0/ 70px 70px,
+    linear-gradient(45deg, #CCCCCC 25%, #E5E5E5 25%) 0px 0/ 70px 70px;
+}
+
+.background-2 {
+    background-color: #E5E5E5;
+    opacity: 1;
+    background-image: linear-gradient(45deg, #CCCCCC 50%, #E5E5E5 50%);
+    background-size: 35px 35px;
+}
+
+.background-3 {
+    background-color: #E5E5E5;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #CCCCCC 25%, transparent 25%),
+        linear-gradient(225deg, #CCCCCC 25%, transparent 25%),
+        linear-gradient(45deg, #CCCCCC 25%, transparent 25%),
+        linear-gradient(315deg, #CCCCCC 25%, #E5E5E5 25%);
+    background-position:  35px 0, 35px 0, 0 0, 0 0;
+    background-size: 35px 35px;
+    background-repeat: repeat;
+}
+
+.background-4 {
+    background-color: #E5E5E5;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #E5E5E5 35px ),
+        repeating-linear-gradient( #CCCCCC55, #CCCCCC );
+}
+
+.background-5 {
+    background-color: #E5E5E5;
+    opacity: 1;
+    background-image:  repeating-linear-gradient(45deg, #CCCCCC 25%, transparent 25%, transparent 75%, #CCCCCC 75%, #CCCCCC),
+        repeating-linear-gradient(45deg, #CCCCCC 25%, #E5E5E5 25%, #E5E5E5 75%, #CCCCCC 75%, #CCCCCC);
+    background-position: 0 0, 35px 35px;
+    background-size: 70px 70px;
+}
+
+.background-0 {
+    background-color: #E5E5E5;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #CCCCCC 12%, transparent 12.5%, transparent 87%, #CCCCCC 87.5%, #CCCCCC),
+        linear-gradient(150deg, #CCCCCC 12%, transparent 12.5%, transparent 87%, #CCCCCC 87.5%, #CCCCCC),
+        linear-gradient(30deg, #CCCCCC 12%, transparent 12.5%, transparent 87%, #CCCCCC 87.5%, #CCCCCC),
+        linear-gradient(150deg, #CCCCCC 12%, transparent 12.5%, transparent 87%, #CCCCCC 87.5%, #CCCCCC),
+        linear-gradient(60deg, #CCCCCC77 25%, transparent 25.5%, transparent 75%, #CCCCCC77 75%, #CCCCCC77),
+        linear-gradient(60deg, #CCCCCC77 25%, transparent 25.5%, transparent 75%, #CCCCCC77 75%, #CCCCCC77);
+    background-size: 70px 123px;
+    background-position: 0 0, 0 0, 35px 61px, 35px 61px, 0 0, 35px 61px;
+}

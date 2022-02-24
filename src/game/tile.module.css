@@ -1,0 +1,43 @@
+@import "~@audi/audi-ui-design-tokens/build/css/variables.scss";
+
+.tile {
+    width: 200px;;
+    height: 200px;
+    background-color: transparent;
+    box-shadow: 10px 10px 50px 10px rgba(0,0,0,0.25);
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    position: relative;
+    word-break: break-word;
+}
+
+.opened {
+    transform: rotateY(180deg);
+}
+
+.back, .front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.front {
+    background-color: #fff;
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    transition: opacity 1s 1s;
+}
+
+.back.disabled {
+    opacity: 0 !important;
+    /*background: var(--color-base-grey-10);*/
+}
+

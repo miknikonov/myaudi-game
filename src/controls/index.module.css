@@ -1,0 +1,9 @@
+.controls-wrapper {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: end;
+    gap: 20px;
+}

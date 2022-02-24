@@ -1,0 +1,17 @@
+.game-wrapper {
+    grid-column: 2 / 3;
+    grid-row: 1 / span 2;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.game-tiles {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
