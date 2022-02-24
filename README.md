@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Application Design and concept](https://www.figma.com/file/RNHEqO01vsWIBfEjnfJmAg/Innovation-21.4-%2F%2F-myAudi-memory?node-id=42%3A20498) in figma 
+
 ## Prerequisites 
 
 1. Tiles data should be exported from [this googlesheet](https://docs.google.com/spreadsheets/u/2/d/1OWgm0fMGONyYEMSXuP20S6Z46RuQdhxZzJrm6qFFM_8/edit#gid=0) as a json and places in src folder as ``data.json``. Ideally this json should not exist and all tiles info should be fetched from external source (directly from sheet or database)
